@@ -1,6 +1,6 @@
 #파일 쓰고 Control
 
-# f = open("D:/_StudyArea/python/nMakeFile.txt","w")
+# f = open("D:/_StudyArea/python/nMakeFile.txt","w", encoding='utf-8')
 
 # for iLoop in range(1,20):
 #     writeData = "%d번째 줄입니다. \n" % iLoop
@@ -11,22 +11,21 @@
 
 
 #파일 읽고 1. 
-
-# f = open("D:/_StudyArea/python/nMakeFile.txt","r")
+# f = open("D:/_StudyArea/python/nMakeFile.txt","r" , encoding='utf-8')
 # while True:
 #     rline = f.readline()
 #     if not rline : break
 #     print(rline)
-
 # f.close()
+
 
 #파일 읽고 2. 
-# f = open("D:/_StudyArea/python/nMakeFile.txt","r")
-# rlines = f.readlines()
-# for line in rlines:
-#     line = line.strip()
-#     print(line)
-# f.close()
+f = open("D:/_StudyArea/python/nMakeFile.txt","r", encoding='utf-8')
+rlines = f.readlines()
+for line in rlines:
+    line = line.strip()
+    print(line)
+f.close()
 
 
 print(f"{'':=^100}")
@@ -44,9 +43,8 @@ print(f"{'':=^100}")
 # print(data)
 # f.close()
 
-import sys
-args = sys.argv[1:]
-for iLoop in args:
-    print(iLoop.upper(), end=' ')
+# import sys
+# args = sys.argv[1:]
+# for iLoop in args:
+#     print(iLoop.upper(), end=' ')
 
-    
