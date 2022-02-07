@@ -39,4 +39,4 @@ print(_TempStr.split())
 _TempArr = [1,2,3,4,5,6,7,8]
 _TempArr2 = [111,666,7,8]
 #del _TempArr2[2:4]
-print(_TempArr.count(7))
+print(_TempArr.count(9))
