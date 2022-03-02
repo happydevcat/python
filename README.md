@@ -21,4 +21,9 @@
       set PYTHONPATH = [특정 모듈 Folder 경로설정]
 
 # Python Package 
-  - __init__.py
+  - __init__.py는 해당 Directory가 Package임을 알려주는 역활을 한다.
+  ※ python3.3 버전부터는 __init__.py 파일이 없어도 패키지로 인식한다
+  - 도트 연산자(.)를 사용해서 import a.b.c처럼 import할 때 가장 마지막 항목인 c는 반드시 모듈 또는 패키지여야만 한다.
+
+# Python Exception
+  - try : except : 구문으로 나타난다. 
