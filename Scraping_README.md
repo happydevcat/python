@@ -28,3 +28,8 @@
 
 # Selenium 설치
 - pip install selenium
+- chrome Driver 설치
+- pip install webdriver-manager(webdriver-manager 패키지 설치)
+- pip install pyperclip (Naver 자동 로그인 감지기 우회하기 )
+
+- https://selenium-python.readthedocs.io/
