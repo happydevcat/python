@@ -21,5 +21,8 @@ browser = webdriver.Chrome(service=srv, options=chrome_options)
 browser.maximize_window() # 창 최대화
 browser.get(base_url)
 
+print("<identity impersonate='true'>")
+
+
 
 
