@@ -21,3 +21,9 @@ cpTargetSt.title ="Copied Sheet"
 
 wb.save("_Sample_RPA.xlsx")
 wb.close()
+
+
+print("사피엔스 - 유발 하라리")
+print("코스모스 - 칼 세이건")
+print("총, 균 쇠 - 재레드 다이아몬드")
+

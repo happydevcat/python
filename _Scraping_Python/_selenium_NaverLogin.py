@@ -25,7 +25,7 @@ elem.click()
 
 ## ID/Password 로그인 정보입력
 naverId = "rurounix"
-naverPw = "xxxxxxxxx"
+naverPw = "@7798ss$"
 
 pyperclip.copy(naverId)
 browser.find_element(By.ID, "id").send_keys(Keys.CONTROL, 'v')
