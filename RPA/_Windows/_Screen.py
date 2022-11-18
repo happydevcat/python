@@ -50,6 +50,12 @@ pyautogui.sleep(2)
 
 
 #일정시간 동안 기다릴꼐. 
+
+currWon = 120000
+
+print("▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ : ",500000000/currWon)
+# 시간내 5초정도에 5억이상. 
+
 import time
 import sys
 timeout = 10
